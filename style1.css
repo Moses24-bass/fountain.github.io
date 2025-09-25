@@ -1,0 +1,132 @@
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 250px; /* Ajustez la taille selon votre besoin */
+  height: 60px;
+  z-index: 100px;
+}
+.font-image {
+	background-image: url(corv.jpg);
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.texte-blanc {
+	color: white;
+	font-size: 50px;
+}
+header {
+	margin-bottom: 40px; /* barre d'en-tête */
+	height: 30px;
+}
+h3 {
+	color: yellow;
+	font-size: 25px;     /* texte sure l'image de couverture */
+	text-align: center;
+}
+.image-100-50 {
+	width: 40;
+	height: 20;
+}
+.navbar-nav {
+	border-right: 1px solid #ccc;
+	padding-right: 20px;
+	margin-right: 10px;
+}
+/*bas de page*/
+footer {
+	background-color: #A9A9A9;
+	padding: 20px;
+	text-align: center;
+}
+footer .container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+footer .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer .col-md-4 {
+	flex-basis: 33.33%;
+}
+footer h4 {
+	margin-bottom: 10px;
+}
+footer p {
+	margin-bottom: 20px;
+}
+footer .copyright {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+footer .copyright p {
+	margin-bottom: 0;
+}
+/*-formulaire-*/
+form {
+	max-width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label {
+	display: block:
+	margin-bottom: 10px;
+}
+input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+input [type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+    cursor: pointer;
+}
+/*le bouton en savoir-plus*/
+.btn-savoir-plus {
+	background-color: #3e8e41;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn-savoir-plus:hover {
+	background-color: #4CAF50;
+}
+a {
+	text-decoration: none;
+}
+.image-gauche {
+	float: right; /*flottemment a gauche*/
+	margin-right: auto; /* marge droitd*/
+}
+.image-gauche img {
+	width: 600px; /*largeur de l'image*/
+	height: auto; /* hauteur automatique*/
+}
+.contenu {
+	overflow: auto; /* masque le flottement*/
+}
+h2 {
+	color: black;
+	font-size: 25px;   
+    text-align: center;
+}
